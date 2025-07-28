@@ -74,4 +74,4 @@ def validate_names(*names, code: str = None) -> str:
     if invalid_names:
         raise NameError(f"Invalid names found: {', '.join(invalid_names)}")
 
-    return code
+    return code or True
