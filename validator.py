@@ -17,7 +17,7 @@ def only(iter):
     Returns:
         list: A list of non-empty values.
     """
-    return [x for x in iter if x]
+    return set([x for x in iter if x])
 
 
 def find_names(code: str) -> list[str]:
