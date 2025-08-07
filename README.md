@@ -167,7 +167,7 @@ Contributions are welcome! Please ensure all code follows the existing style and
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the GPL License.
 
 ## Dependencies
 
