@@ -164,7 +164,6 @@ class TypeValidator:
                 origin, _ = entity
                 if origin:
                     entity_repr = f"{origin}.{type_}" if origin else type_
-                    print(entity_repr)
                     type_map[type_] = origin
                 else:
                     type_map[type_] = ""
